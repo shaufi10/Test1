@@ -6,7 +6,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import test.test1.MainActivity;
 import test.test1.R;
 
 /**
@@ -23,7 +22,7 @@ public class test2 extends Fragment {
         View view = inflater.inflate(R.layout.test2, container, false);
 
         //((MainActivity) getActivity()).toolbar.setTitle("2");
-        ((MainActivity) getActivity()).textView.setText("2");
+        //((MainActivity) getActivity()).textView.setText("2");
         return view;
 
 
